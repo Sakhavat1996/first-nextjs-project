@@ -2,6 +2,7 @@
   "name": "first-nextjs-project",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
